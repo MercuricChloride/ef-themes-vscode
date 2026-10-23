@@ -1,9 +1,14 @@
 {
   "name": "ef-themes-vscode",
   "displayName": "Ef Themes",
+  "publisher": "mercuricchloride",
   "description": "Port of Protesilaos Stavrou's Ef themes for Emacs: 38 colorful yet legible light and dark themes.",
   "version": "0.0.1",
   "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MercuricChloride/ef-themes-vscode.git"
+  },
   "engines": {
     "vscode": "^1.140.0"
   },
@@ -22,7 +27,8 @@
   ],
   "scripts": {
     "palettes": "scripts/update-palettes.sh",
-    "build": "node scripts/build.mjs"
+    "build": "node scripts/build.mjs",
+    "install-local": "npx --yes --package=@vscode/vsce@4 -- vsce package --no-dependencies -o ef-themes-vscode.vsix && code --install-extension ef-themes-vscode.vsix --force"
   },
   "contributes": {
     "themes": [
