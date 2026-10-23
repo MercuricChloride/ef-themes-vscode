@@ -1,0 +1,221 @@
+{
+  "name": "ef-themes-vscode",
+  "displayName": "Ef Themes",
+  "description": "Port of Protesilaos Stavrou's Ef themes for Emacs: 38 colorful yet legible light and dark themes.",
+  "version": "0.0.1",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "emacs",
+    "ef-themes",
+    "modus-themes",
+    "dark",
+    "light",
+    "accessibility"
+  ],
+  "scripts": {
+    "palettes": "scripts/update-palettes.sh",
+    "build": "node scripts/build.mjs"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ef Arbutus",
+        "uiTheme": "vs",
+        "path": "./themes/ef-arbutus-color-theme.json"
+      },
+      {
+        "label": "Ef Arcadia",
+        "uiTheme": "vs",
+        "path": "./themes/ef-arcadia-color-theme.json"
+      },
+      {
+        "label": "Ef Atlantis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-atlantis-color-theme.json"
+      },
+      {
+        "label": "Ef Autumn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-autumn-color-theme.json"
+      },
+      {
+        "label": "Ef Bio",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-bio-color-theme.json"
+      },
+      {
+        "label": "Ef Cherie",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-cherie-color-theme.json"
+      },
+      {
+        "label": "Ef Cyprus",
+        "uiTheme": "vs",
+        "path": "./themes/ef-cyprus-color-theme.json"
+      },
+      {
+        "label": "Ef Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Day",
+        "uiTheme": "vs",
+        "path": "./themes/ef-day-color-theme.json"
+      },
+      {
+        "label": "Ef Deuteranopia Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-deuteranopia-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Deuteranopia Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-deuteranopia-light-color-theme.json"
+      },
+      {
+        "label": "Ef Dream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-dream-color-theme.json"
+      },
+      {
+        "label": "Ef Duo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-duo-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Duo Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-duo-light-color-theme.json"
+      },
+      {
+        "label": "Ef Eagle",
+        "uiTheme": "vs",
+        "path": "./themes/ef-eagle-color-theme.json"
+      },
+      {
+        "label": "Ef Elea Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-elea-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Elea Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-elea-light-color-theme.json"
+      },
+      {
+        "label": "Ef Fig",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-fig-color-theme.json"
+      },
+      {
+        "label": "Ef Frost",
+        "uiTheme": "vs",
+        "path": "./themes/ef-frost-color-theme.json"
+      },
+      {
+        "label": "Ef Kassio",
+        "uiTheme": "vs",
+        "path": "./themes/ef-kassio-color-theme.json"
+      },
+      {
+        "label": "Ef Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-light-color-theme.json"
+      },
+      {
+        "label": "Ef Maris Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-maris-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Maris Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-maris-light-color-theme.json"
+      },
+      {
+        "label": "Ef Melissa Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-melissa-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Melissa Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-melissa-light-color-theme.json"
+      },
+      {
+        "label": "Ef Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-night-color-theme.json"
+      },
+      {
+        "label": "Ef Orange",
+        "uiTheme": "vs",
+        "path": "./themes/ef-orange-color-theme.json"
+      },
+      {
+        "label": "Ef Owl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-owl-color-theme.json"
+      },
+      {
+        "label": "Ef Reverie",
+        "uiTheme": "vs",
+        "path": "./themes/ef-reverie-color-theme.json"
+      },
+      {
+        "label": "Ef Rosa",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-rosa-color-theme.json"
+      },
+      {
+        "label": "Ef Spring",
+        "uiTheme": "vs",
+        "path": "./themes/ef-spring-color-theme.json"
+      },
+      {
+        "label": "Ef Summer",
+        "uiTheme": "vs",
+        "path": "./themes/ef-summer-color-theme.json"
+      },
+      {
+        "label": "Ef Symbiosis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-symbiosis-color-theme.json"
+      },
+      {
+        "label": "Ef Trio Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-trio-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Trio Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-trio-light-color-theme.json"
+      },
+      {
+        "label": "Ef Tritanopia Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-tritanopia-dark-color-theme.json"
+      },
+      {
+        "label": "Ef Tritanopia Light",
+        "uiTheme": "vs",
+        "path": "./themes/ef-tritanopia-light-color-theme.json"
+      },
+      {
+        "label": "Ef Winter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ef-winter-color-theme.json"
+      }
+    ]
+  }
+}
